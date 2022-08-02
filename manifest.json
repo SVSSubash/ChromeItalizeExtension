@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"version": "1.0.0.0",
+	"name": "ITALIZE_V2",
+	"description": "Italize all text on web page.",
+	"icons": {
+		"16": "images/desert.png",
+		"48": "images/desert.png",
+		"128": "images/desert.png"
+	},
+	"content_scripts": [{
+        "matches": ["*://*/*","file:///*"],
+        "run_at": "document_end",
+        "all_frames": true,
+        "js": ["content_script.js"]
+      }]
+}
