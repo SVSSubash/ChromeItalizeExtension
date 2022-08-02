@@ -4,9 +4,9 @@
 	"name": "ITALIZE_V2",
 	"description": "Italize all text on web page.",
 	"icons": {
-		"16": "images/desert.png",
-		"48": "images/desert.png",
-		"128": "images/desert.png"
+		"16": "images/lotus.png",
+		"48": "images/lotus.png",
+		"128": "images/lotus.png"
 	},
 	"content_scripts": [{
         "matches": ["*://*/*","file:///*"],
